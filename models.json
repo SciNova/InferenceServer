@@ -1,0 +1,27 @@
+{
+	"Qwen2.5-0.5B-Instruct-Q2_K": {
+		"huggingface_url": "https://huggingface.co/bartowski/Qwen2.5-0.5B-Instruct-GGUF/resolve/main/Qwen2.5-0.5B-Instruct-Q2_K.gguf",
+		"context_size": 4096,
+		"description": "Smallest model we have, aggressively quantized -- for proving the framework loads and responds, not for usable answers."
+	},
+	"Qwen3-0.6B-Q4_K_M": {
+		"huggingface_url": "https://huggingface.co/unsloth/Qwen3-0.6B-GGUF/resolve/main/Qwen3-0.6B-Q4_K_M.gguf",
+		"context_size": 4096,
+		"description": "Tiny Qwen3 model, for cheaply exercising tool-calling and plumbing, not answer quality."
+	},
+	"Qwen3.5-0.8B-Q4_K_M": {
+		"huggingface_url": "https://huggingface.co/unsloth/Qwen3.5-0.8B-GGUF/resolve/main/Qwen3.5-0.8B-Q4_K_M.gguf",
+		"context_size": 4096,
+		"description": "Smallest Qwen3.5 model, fast on this phone."
+	},
+	"Qwen3.5-2B-Q4_K_M": {
+		"huggingface_url": "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/resolve/main/Qwen3.5-2B-Q4_K_M.gguf",
+		"context_size": 4096,
+		"description": "Mid-size Qwen3.5 model, better answers than the 0.8B at a slower pace."
+	},
+	"Qwen3.5-4B-Q6_K": {
+		"huggingface_url": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/main/Qwen3.5-4B-Q6_K.gguf",
+		"context_size": 4096,
+		"description": "Largest Qwen3.5 model that still fits on this phone, heaviest and slowest of the four."
+	}
+}
